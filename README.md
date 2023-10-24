@@ -30,6 +30,9 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ## Screenshots
-![Screenshot (177)](https://github.com/suryakantkakkar/job-portal-![Screenshot (178)](https://github.com/suryakantkakkar/job-portal-frontend/assets/55491342/d6d4c293-ba84-48ff-ab76-d97beaf5d100)
-frontend/assets/55491342/2fa48f88-aa26-4e1d-9106-e1b42f6d398c)
+![Screenshot (177)](https://github.com/suryakantkakkar/job-portal-frontend/assets/55491342/c5a945cc-6d02-4d63-8242-f9c3fadd65ab)
+
+
+![Screenshot (178)](https://github.com/suryakantkakkar/job-portal-frontend/assets/55491342/b7c95748-8b9a-41a8-8b51-7a867836a7d1)
+
 
