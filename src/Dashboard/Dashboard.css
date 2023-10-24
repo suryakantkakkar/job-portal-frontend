@@ -1,0 +1,178 @@
+body, html {
+    background-color: #e6e2ee;
+  }
+
+.dashboard
+{
+    font-family: sans-serif;
+    display: flex;
+    background-color: #e6e2ee;
+}
+
+.sidebar {
+    width: 15%; 
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+  }
+
+  .centrebar
+  {
+    margin-left: 255px;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .heading
+  {
+    margin-top: 30px;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+  }
+
+  .jobcard{
+    padding: 20px;
+    min-height: 60px;
+    max-height: 60px;
+    min-width: 550px;
+    max-width: 550px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;  
+    margin-bottom: 20px;
+}
+
+ .left-div
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+ }
+ .right-div
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .apply-button{
+    align-items: center;
+    background-color: #5331CB;
+    color: white;
+    font-weight: 400;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+ }
+
+ .rightsidebar {
+    width: 35%; 
+    position: fixed;
+    height: 100%;
+    right: 0;
+    top: 0;
+    border: 3px 3px 3px 3px; 
+    border-left: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.job-apply-detail{
+    display: flex;
+    min-width: 450px;
+    min-height: 500px;
+    background-color: white;
+    flex-direction: column;
+    padding: 30px;
+    gap:8px;
+}
+
+.static-text{
+    font-weight: 400;
+    font-size: 15px;
+    color: #6d6e6f;
+}
+
+.user-input{
+width: 380px;
+height: 25px;
+border-radius: 4px;
+border: 1px solid #cfcbcb;
+background-color: white;
+padding: 2px;
+}
+
+.file-upload{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid #cfcbcb;
+    background-color: white;
+    padding: 5px;
+}
+
+
+.button-container{
+  margin-top: 5px;
+  width:400px;
+  height:40px;
+  display: flex;
+  gap:16px;
+}
+
+.cancel-button{
+  min-width: 178px;
+  min-height: 40px;
+  border: 1px solid #cfcbcb;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  background-color: #f5f3f9;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.send-button{
+  min-width: 200px;
+  min-height: 40px;
+  border: 1px solid #cfcbcb;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  background-color: #5331CB;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.send-button-disabled{
+  background-color: rgb(43, 203, 43);
+  cursor: not-allowed;
+  min-width: 200px;
+  min-height: 40px;
+  border: 1px solid #cfcbcb;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
